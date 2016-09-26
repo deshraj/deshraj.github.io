@@ -3,9 +3,9 @@
 <head>
   <title>Deshraj Yadav</title>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" /> -->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900' rel='stylesheet' type='text/css'>
-
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css" />
   <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -75,14 +75,12 @@
 .navbar-fixed-top {
   height: 35px !important;
   min-height:10px;
-  right: 0;
-  left: 0;
-
 }
 
 body{
   background: white;
   color: black;
+  font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -92,7 +90,7 @@ body{
   color: white;
 }
 
-h1,h2,h3{
+h1,h2,h3, h4{
   font-weight: 300;
 }
 .content_heading{
@@ -114,33 +112,65 @@ img{
 p{
   font-size: 16px;
 }
+#news_list li, #achievements_list li{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.contact_div{
+  margin-bottom: 30px;
+}
+
+.project_list{
+  margin-bottom: 20px;
+}
+.panel{
+  margin-bottom: 0px;
+}
+.navbar-right li{
+  color: white;
+}
 </style>
 <body>
   <nav class="navbar navbar-fixed-top">
-    <div class="title_bar_text">
+    <ul class="nav navbar-nav">
+      <li class="title_bar_text">
       <span>deshraj@pymachine:~$</span>
-      <span> ~/home/deshraj/portfolio</span>
-      <span class="blinking-cursor">|</span>
-    </div>
+      <span> ~/home/deshraj/resume</span>
+      <span class="blinking-cursor">|</span></li>
+    </ul>
   </nav>
-    <div class="container main_content">
-      <h1 align="center">Deshraj Yadav</h1>
-      <h2 align="center">Passionate Programmer | Open Source Contributor | Hacking Mentality</h2>
-
-      <div class="row" id="about"></div>
-      <div class="row" id="experience"></div>
-      <div class="row" id="skills"></div>
-      <div class="row" id="projects"></div>
-      <div class="row" id="education"></div>
-      <div class="row" id="contact"></div>
+  <div class="container main_content">
+    <h1 align="center">Deshraj Yadav</h1>
+    <p align="center"><a target="_blank" href="http://github.com/deshraj">@deshrajdry</a></p>
+    <div align="center">
+      <img src="/static/img/deshraj.png" height="300px;">
     </div>
+    <h2 align="center">Passionate Programmer | Open Source Contributor | Hacking Mentality</h2>
+    <div class="row" id="about"></div>
+    <div class="row" id="news"></div>
+    <div class="row" id="experience"></div>
+    <div class="row" id="skills"></div>
+    <div class="row" id="projects"></div>
+    <div class="row" id="education"></div>
+    <div class="row" id="achievements"></div>
+    <div class="row" id="contact"></div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-footer" align="center">&#9400; Deshraj Yadav</div>
+  </div>
+
   <script type="text/javascript">
     $( document ).ready(function() {
       $("#about").load("about.html"); 
+      $("#news").load("news.html"); 
       $("#experience").load("experience.html"); 
       $("#skills").load("skills.html"); 
-      $("#education").load("education.html"); 
       $("#projects").load("projects.html"); 
+      $("#education").load("education.html"); 
+      $("#achievements").load("achievements.html"); 
+      $("#contact").load("contact.html"); 
     });
   </script>
 </body>
