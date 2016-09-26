@@ -1,286 +1,147 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title>Deshraj Yadav</title>
+  <title>Deshraj Yadav</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" /> -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900' rel='stylesheet' type='text/css'>
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,300,400,800' rel='stylesheet' type='text/css'>
-    <link href="static/css/normalize.css" rel="stylesheet" />
-    <link href="static/css/style.css" rel="stylesheet" />
-    <style type="text/css">
-    	#contact{
-		display:table;
-		text-align:center;
-		width:100%;
-		height:100%;
-	}
-	#inside{
-		display:table-cell;
-		vertical-align:middle;
-	}
-	#plusone{
-			background-image:url("static/img/plusone.png");
-		}
-		#plusone:active{
-			background-image:url("static/img/plusoneactive.png")
-		}
-		#facebook{
-			background-image:url("static/img/facebook.png");
-		}
-		#facebook:active{
-			background-image:url("static/img/facebookactive.png")
-		}
-		#twitter{
-			background-image:url("static/img/twitter.png");
-		}
-		#twitter:active{
-			background-image:url("static/img/twitteractive.png")
-		}
-		#linkedin{
-			background-image:url("static/img/linkedin.png");
-		}
-		#linkedin:active{
-			background-image:url("static/img/linkedin.png")
-		}
-		#gmail{
-			background-image:url("static/img/gmail.png");
-		}
-		#gmail:active{
-			background-image:url("static/img/gmailactive.png")
-		}
-		.share{
-			background-size:30px 30px;
-			width:30px;
-			height:30px;
-			display:inline-block;
-			margin:4px
-		}
-    </style>
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<style type="text/css">
+.blinking-cursor {
+  font-weight: 200;
+  font-size: 20px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+.navbar{
+  background-color: #302C2F !important;
+  font-size: 16px;
+}
+
+/*@media only screen and (min-width: 900px) {*/
+.navbar-fixed-top {
+  height: 35px !important;
+  min-height:10px;
+  right: 0;
+  left: 0;
+
+}
+
+body{
+  background: white;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title_bar_text{
+  margin-left: 5px;
+  margin-top: 5px;
+  color: white;
+}
+
+h1,h2,h3{
+  font-weight: 300;
+}
+.content_heading{
+  margin-left: 5px;
+}
+.content{
+  margin-left: 30px;
+}
+.main_content{
+  margin-top: 40px;
+}
+.section_heading{
+  margin-top: 40px;
+}
+img{
+  vertical-align: middle !important;
+}
+
+p{
+  font-size: 16px;
+}
+</style>
 <body>
+  <nav class="navbar navbar-fixed-top">
+    <div class="title_bar_text">
+      <span>deshraj@pymachine:~$</span>
+      <span> ~/home/deshraj/portfolio</span>
+      <span class="blinking-cursor">|</span>
+    </div>
+  </nav>
+    <div class="container main_content">
+      <h1 align="center">Deshraj Yadav</h1>
+      <h2 align="center">Passionate Programmer | Open Source Contributor | Hacking Mentality</h2>
 
-	<div class="background"></div>
-	
-	<div id="hint">Use the spacebar or arrow keys to navigate</div>
-	
-	<div id="impress" class="impress-not-supported">
-		
-		<div id="title" class="step" data-x="100" data-y="100" data-scale="4.5">
-			<div class="big bold">
-				<div id="title-text1">Looking for a</div>
-				<div id="title-text3">Techie !!!</div>
-				<br><div id="title-text4"><a href="#title2"><u>Click Here</u></a></div>
-				<br><div><a href="#tech1">Tech Skills</a></div>
-				<br><div><a href="#pro1">Projects</a></div> 
-				<br><div><a href="#exp1">Experience</a></div>
-				<br><div> <a href="#hon1">Honors & Awards</a> </div>
-				<br><div><a href="#contact">Contact Me</a> </div>
-				<br><div><a href="static/img/deshraj.pdf">My Resume</a></div>
-			</div>
-		</div>
-	
-		<div id="title2" class="step" data-x="540" data-y="-400" data-rotate="-90" data-rotate-y="90"data-scale=".5">
-			<img src="static/img/responsive_web_design.png" height="300" />
-			<div class="big bold">			
- 				<div id="ar-adaptive">Deshraj</div>
- 				<div id="ar-adaptive-fixed">Open Source Enthusiast  </div>	
-				<div id="ar-adaptive-fixed">(B.Tech CSE, JSS Noida)</div>	
-			</div>
-		</div>
-		
-		<div id="combo" class="step" data-x="540" data-y="750"  data-rotate="90" data-rotate-y="-90"data-scale=".5">
-			<div class="big bold">
-				<div id="combo-text">Combo of</div>
-			</div>
-			<div id="combo-fluid-fixed">
-				<div id="combo-fluid" class="big">
-					<div class="bold">Web Developer</div>
-				</div>
-				<div id="combo-plus">+</div>
-				<div id="combo-fixed" class="big">
-					<div class="bold">Research Oriented Guy</div>
-				</div>
-			</div>
-		</div>
-		
-		<div id="tech1" class="step" data-x="1200" data-y="0" data-rotate="-90" data-rotate-y="90" data-scale=".1">
-			<div class="big bold title">Tech Skills</div>
-		</div>
-
-		<div id="tech2" class="step" data-x="1050" data-y="100" data-rotate="-90" data-rotate-y="90" data-scale=".1">
-			<br>
-			<div class="big light" id="why-sml">HTML + CSS + Javascript</div>
-			<div class="big bold" id="why-one-site">Python</div>
-			<div class="big bold" id="why-every">C, C++ & Linux</div>
-			<div class="big light" id="why-sml">Windows Mobile App Dev.</div>
-
-		</div>
-
-
-		<div id="tech3" class="step" data-x="900" data-y="200" data-rotate="-90" data-rotate-y="90" data-scale=".1">
-			<div class="big bold"><h1>Frameworks:</h1></div>
-			<div class="big light" id="why-sml"><b>Scrapy</b></div>
-			<div class="big bold" id="why-one-site">Django</div>
-		</div>
-
-		<div class="step" id="tech4" data-x="750" data-y="100" data-rotate="-90" data-rotate-y="90" data-scale=".1">
-			<div class="big bold"><h1>Databases:</h1></div>
-			<div class="big bold" id="why-every">Elasticsearch</div>
-			<br>
-			<div class="big light" id="why-sml"><b>SQL and MYSQL</b></div>
-			<br>
-			<div class="big bold" id="why-one-site">Mongodb</div>
-
-		</div>
-		<div class="step" id="tech5" data-x="600" data-y="0" data-rotate="-90" data-rotate-y="90" data-scale=".1">
-			<div class="big bold"><h1>Other Tech Skills:</h1></div>
-			<div class="big bold" id="bold"><p>OpenCV, Computer Vision</p></div>
-			<div class="big light" id="why-sml"><b>Shell Scripting</b></div>
-			<br>
-			<div class="big light" id="bold"><strong>XML, JSON and Git</strong></div>
-
-		</div>
-
-
-
-		<div id="pro1" class="step" data-x="-1100" data-y="1380" data-rotate="90" data-rotate-y="-90" data-scale=".1">
-			<div class="big bold"><h1>Projects</h1></div>
-		</div>	
-		
-		<div id="pro2" class="step" data-x="-1000" data-y="1450"data-rotate="90" data-rotate-y="-90" data-scale=".1">
-			<div class="big light" id="who-real-not">Not just demos, they required lot of</div>
-			<div class="big bold" id="who-real-real">Hard Work</div>
-		</div>
-		
-		<div id="tz" class="step" data-x="-1000" data-y="1320" data-rotate="90" data-rotate-y="-90"data-scale=".1">
-			<a href="http://takezero.in" class="img-link">
-		
-				<div class="img-wrap img-inline" id="img-obama-m">
-					<img src="static/img/2.png" class="img-border" />
-				</div>
-			
-			</a>
-			<div class="big bold" id="who-obama">Take Zero</div>
-			<div class="big light" id="who-obama-desc">The Portfolio Website for Actors and Models</div>
-			<a href="http://takezero.in" class="small">Takezero.in</a>
-		</div>
-		<div id="gdg" class="step" data-x="-885" data-y="1320" data-rotate="90" data-rotate-y="-90"data-scale=".1">
-			<a href="http://gdgjss.herokuapp.com" class="img-link">
-				<div class="img-wrap img-inline" id="img-bg-m">
-					<img src="static/img/1.png" class="img-border" />
-				</div>
-			
-			</a>
-			<div class="big bold" id="who-bg">GDG JSS</div>
-			<div class="big light" id="who-obama-desc">Platform for Techies to grow</div>
-			<a href="http://gdgjss.herokuapp.com" class="small">gdgjss.herokuapp.com</a>
-		</div>
-		
-		
-		<div id="skynet" class="step" data-x="-885" data-y="1450"  data-rotate="90" data-rotate-y="-90"data-scale=".1">
-			<a href="http://www.windowsphone.com/en-in/store/app/skynetv1/410885f3-fe4e-4b00-baf6-b87749dd4463" class="img-link">
-				<div class="img-wrap img-inline" id="img-greygoose">
-					<img src="static/img/4.png" />
-				</div>
-			</a>
-			<div class="big bold" id="who-greygoose">SkyNet Browser</div>
-			<div class="big light" id="who-greygoose-desc"><a href="http://www.windowsphone.com/en-in/store/app/skynetv1/410885f3-fe4e-4b00-baf6-b87749dd4463">Windows Phone Based Web Browser(13k + downloads)</a></div>
-		</div>
-		
-		<div id="play" class="step" data-x="-700" data-y="1450" data-rotate="90" data-rotate-y="-90" data-scale=".1">
-			<a href="http://playoread.herokuapp.com" class="img-link">
-				<div class="img-wrap img-inline" id="img-clean-s">
-					<img src="static/img/7.png" />
-				</div>
-			</a>
-			<div class="big bold" id="who-cac">Play-o-Read</div>
-			<div class="big light" id="who-cac-desc">Chrome App for improving kids comprehension skills</div>
-		</div>
-
-		<div id="who-cac" class="step" data-x="-700" data-y="1320"  data-rotate="90" data-rotate-y="-90" data-scale=".1">
-			<a href="http://github.com/deshraj" class="img-link">
-				<div class="img-wrap img-inline" id="img-clean-s">
-					<img src="static/img/10.png" />
-				</div>
-			</a>
-			<div class="big bold" id="who-cac">Image Searching Algorithm</div>
-			<div class="big light" id="who-cac-desc">Similar To Google Image Search for searching images in a Computer </div>
-		</div>
-
-		<div id="magnum" class="step" data-x="-600" data-y="1320"  data-rotate="90" data-rotate-y="-90" data-scale=".1">
-				<div class="img-wrap img-inline" id="img-clean-s">
-					<img src="static/img/3.png" />
-				</div>
-			</a>
-			<div class="big bold" id="who-cac">The-Magnum</div>
-			<div class="big light" id="who-cac-desc">Online Platform for listing Top Magzines</div>
-		</div>
-
-		<div id="more" class="step" data-x="-600" data-y="1450"  data-rotate="90" data-rotate-y="-90" data-scale=".1">
-			<div class="big bold">...and plenty more</div>
-			<a href="http://github.com/deshraj/">http://github.com/deshraj</a>
-		</div>
-		
-
-
-		<div id="exp1" class="step" data-x="1010" data-y="800" data-rotate-x="10"data-scale=".1" data-rotate-x="-90">
-			<div class="big bold"><h1><u>Experience</u></h1></div>
-		</div>
-		<div id="exp2" class="step" data-x="1050" data-y="950" data-z="50"  data-rotate-x="90" data-scale=".8">
-			<div class="big bold "><ul><li>Web Developer (Intern) At Fratmart </li><ul><div class = "big light"> ( August 2014-Present)</div></div>
-			
-		</div>
-		<div id="exp3" class="step" data-x="1050" data-y="800" data-z="200"  data-rotate-x="90"data-scale=".8">
-			<div class="big bold "><ul><li>Web Developer (Intern) At Take Zero </li><ul><div class = "big light"> ( June 2014-July 2014)</div></div>
-			
-		</div>
-		<div id="exp4" class="step" data-x="1050" data-y="950" data-z="350"  data-rotate-x="90"data-scale=".8">
-			<div class="big bold "><ul><li>Organizer At GDG JSS Noida </li><ul>	<div class = "big light"> ( May 2014-Present)</div>
-		</div>
-		</div>
-		<div id="exp5" class="step" data-x="1050" data-y="800" data-z="500"  data-rotate-x="90"data-scale=".8">
-			<div class="big bold "><ul><li>Member Of Nibble Computer Society </li><ul>	<div class = "big light"> ( Feb  2014-Present)</div>
-		</div>
-		</div>
-		<div id="exp6" class="step" data-x="1050" data-y="950" data-z="650"  data-rotate-x="90"data-scale=".8">
-			<div class="big bold "><ul><li>Event Coordinator At Zealicon 2014 </li><ul>	<div class = "big light"> ( April 2014)</div>
-		</div>
-		</div>
-
-		<div id="hon1" class="step" data-x="2000" data-y="800" data-rotate-x="10" data-scale=".1" data-rotate-x="-90">
-			<div class="big bold"><h2>Certification, Honors & Awards</h2></div>
-		</div>
-		<div id="honn1" class="step" data-x="2000" data-y="900" data-z="50"  data-rotate-x="90" data-scale=".1">
-			<div class="big bold">Open Source Contribution In :</div>
-			<div class="big bold "><ul><li><a href="http://github.com/deshraj">Django-allauth</a></li><ul></div>
-			<div class="big bold "><ul><li><a href="http://github.com/deshraj">Impress.Js</a></li><ul></div>
-		</div>
-		<div id="hon2" class="step" data-x="2000" data-y="1000" data-z="50"  data-rotate-x="90" data-scale=".1">
-			<div class="big bold "><ul><li>Python Learning Certification</li><ul></div>
-		</div>
-		<div id="hon3" class="step" data-x="2000" data-y="1100" data-z="50"  data-rotate-x="90" data-scale=".1">
-			<div class="big bold "><ul><li>First Runner Up at HACK-A-THON 2014</li><ul></div>
-		</div>
-		<div id="hon4" class="step" data-x="2000" data-y="1200" data-z="50"  data-rotate-x="90" data-scale=".1">
-			<div class="big bold "><ul><li>Winner at Cassiopians Wars(Mobile App Development Competition)</li><ul></div>
-		</div>
-		<div id="hon5" class="step" data-x="2000" data-y="1300" data-z="50"  data-rotate-x="90" data-scale=".1">
-			<div class="big bold "><ul><li>First Runner Up at Computer Hardware Assembling Comp.</li><ul></div>
-		</div>
-
-		
-		<div id="contact" class="step" data-x="1700" data-y="-600" data-z="50" data-rotate="-90" data-rotate-y="-90"data-scale=".5">
-  		<div id="inside">
-  			<div class="big bold "><h2>Contact Me: </h2></div>
-    		<a id="plusone" target="_blank" href="https://plus.google.com/+deshrajdr/" class="share"></a>
-    		<a id="facebook" target="_blank" href="http://facebook.com/deshrajdry" class="share"></a>
-    		<a id="gmail" target="_blank" href="mailto:deshrajdry@gmail.com" class="share"></a>
-    		<a id="twitter" target="_blank" href="http://twitter.com/deshrajdry" class="share"></a>
-    		<a id="linkedin" target="_blank" href="http://in.linkedin.com/pub/deshraj-yadav/75/259/343/" class="share"></a>
-    	</div>
-	</div>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="static/js/impress.js"></script>
-
+      <div class="row" id="about"></div>
+      <div class="row" id="experience"></div>
+      <div class="row" id="skills"></div>
+      <div class="row" id="projects"></div>
+      <div class="row" id="education"></div>
+      <div class="row" id="contact"></div>
+    </div>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $("#about").load("about.html"); 
+      $("#experience").load("experience.html"); 
+      $("#skills").load("skills.html"); 
+      $("#education").load("education.html"); 
+      $("#projects").load("projects.html"); 
+    });
+  </script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "deshraj.github.io",
+  "version": "1.0.0",
+  "description": "Node.js packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DESHRAJ/deshraj.github.io.git"
+  },
+  "keywords": [
+    "deshraj"
+  ],
+  "author": "Deshraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DESHRAJ/deshraj.github.io/issues"
+  },
+  "homepage": "https://github.com/DESHRAJ/deshraj.github.io#readme"
+}
