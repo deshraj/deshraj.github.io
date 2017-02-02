@@ -67,8 +67,7 @@
   }
 }
 .navbar{
-  background-color: #302C2F !important;
-  font-size: 16px;
+  border-radius: 0;
 }
 
 /*@media only screen and (min-width: 900px) {*/
@@ -99,7 +98,7 @@ h1,h2,h3, h4{
   margin-left: 30px;
 }
 .main_content{
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 .section_heading{
   padding-top: 40px;
@@ -131,45 +130,35 @@ p{
 }
 </style>
 <body>
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-fixed right">
     <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand active" href="#">Deshraj Yadav</a>
-      </div>
       <ul class="nav navbar-nav">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#news">News</a></li>
+        <li><a target="_blank" href="http://github.com/deshraj">Github</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
         <li><a href="#achievements">Achievements</a></li>
+        <li><a target="_blank" href="https://medium.com/@deshrajdry/">Medium</a></li>
+        <li><a target="_blank" href="http://deshrajdry.blogspot.com">Blogger</a></li>
         <li><a href="#contact">Contact Me</a></li>
         <li><a href="/static/docs/DeshrajCV.pdf" target="_blank">Resume</a></li>
       </ul>
     </div>
   </nav>
-<!--   <nav class="navbar navbar-fixed-top">
-    <ul class="nav navbar-nav">
-      <li class="title_bar_text">
-      <span>deshraj@pymachine:~$</span>
-      <span> ~/home/deshraj/resume</span>
-      <span class="blinking-cursor">|</span></li>
-    </ul>
-  </nav> -->
-  <div class="container main_content">
+  <div class="container">
     <h1 align="center">Deshraj Yadav</h1>
-    <p align="center"><a target="_blank" href="http://github.com/deshraj">@deshrajdry</a></p>
+    <p align="center"><a target="_blank" href="http://github.com/deshraj">@deshraj</a></p>
     <div align="center">
-      <img src="/static/img/deshraj.png" height="300px;">
+      <img src="/static/img/deshraj.jpg" height="350px;">
     </div>
-    <h2 align="center">Passionate Programmer | Open Source Contributor | Hacking Mentality</h2>
     <div id="about"></div>
     <div id="news"></div>
+    <div id="publications"></div>
+    <div id="projects"></div>
     <div id="experience"></div>
     <div id="skills"></div>
-    <div id="projects"></div>
-    <div id="education"></div>
+    <!-- <div id="education"></div> -->
     <div id="achievements"></div>
     <div id="contact"></div>
   </div>
@@ -182,10 +171,11 @@ p{
     $( document ).ready(function() {
       $("#about").load("about.html"); 
       $("#news").load("news.html"); 
+      $("#publications").load("publications.html"); 
+      $("#projects").load("projects.html"); 
       $("#experience").load("experience.html"); 
       $("#skills").load("skills.html"); 
-      $("#projects").load("projects.html"); 
-      $("#education").load("education.html"); 
+      // $("#education").load("education.html"); 
       $("#achievements").load("achievements.html"); 
       $("#contact").load("contact.html"); 
     });

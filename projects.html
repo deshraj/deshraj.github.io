@@ -1,120 +1,73 @@
   <div class="row section_heading">
-    <h2><a href="#projects">Projects</a></h2>
+    <h2>Projects</h2>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="content_heading"><a target="_blank" href="http://gradcam.cloudcv.org">EvalAI: A platform to host AI Challenges</a></h3>
+          <p class="content">Currently leading EvalAI Project, an open-source web platform that enables researchers, students, and data-scientists to organize and participate in Artificial Intelligence challenges or competitions (e.g. the VQA challenge, the COCO segmentation/detection challenges)</p>
+      </div>
+
+      <div class="col-md-12" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gf8NnxK2B24" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
 
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12">
         <h3 class="content_heading"><a target="_blank" href="http://gradcam.cloudcv.org">Gradient-weighted Class Activation Mapping(Grad-CAM) Demo</a></h3>
           <p class="content">Gradient-weighted Class Activation Mapping (Grad-CAM) is a novel class-discriminative localization technique, that can be used to make CNN based models interpretable. Grad-CAM highlights regions of the image the VQA model looks at while making predictions. Given an image and a caption or question about that image, the model shows where it looked while doing prediction.</p>
       </div>
 
-<!--       <div class="col-md-5" align="center">
-        <img src="static/img/gradcam_vqa.png" width="300" height="180">
-      </div> -->
+      <div class="col-md-12" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wQHm8tCx0-c" frameborder="0" allowfullscreen></iframe>      </div>
     </div>
 
     <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a target="_blank" href="http://gradcam.cloudcv.org">SlackBot for Gradient-weighted Class Activation Mapping</a></h3>
-          <p class="content">The bot keeps monitoring the slack channels and if someone mentions the bot and asks a question about an Image then it replies back with its Answer using <a href="http://arxiv.org/abs/1505.00468">Visual Question Answering</a>. The jobs sent by the bot are queued and are consumed by RabbitMq workers that sends back the response.</p>
-      </div>
-
-      <!-- <div class="col-md-5" align="center">
-        <img src="static/img/gradcam_vqa.png" width="300" height="180">
-      </div> -->
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12">
         <h3 class="content_heading"><a target="_blank" href="http://dbs.cloudcv.org">Diverse Beam Search Demonstration</a></h3>
           <p class="content">Beam search, the standard work-horse for decoding outputs from neural sequence models like RNNs produces generic and uninteresting sequences. This is inadequate for AI tasks with inherent ambiguity — for example, there can be multiple correct ways of describing the contents of an image. The demo overcomes this by proposing a diversity-promoting replacement, <em>Diverse Beam Search</em> that produces sequences that are significantly different — with runtime and memory requirements comparable to beam search. The demo can be found <a href="http://dbs.cloudcv.org/captioning">here</a></p>
       </div>
-<!-- 
-      <div class="col-md-5" align="center">
-        <img src="static/img/gradcam_vqa.png" width="300" height="180">
-      </div> -->
+
+      <div class="col-md-12" align="center">
+        <blockquote class="embedly-card" data-card-key="0cb3be3b75224d4881ae30aee6c13782" data-card-branding="0" data-card-image="http://dbs.cloudcv.org/media/grad_cam/demo_vqa/COCO_val2014_000000393056.jpg" data-card-type="article-full"><h4><a href="http://dbs.cloudcv.org/captioning">DBS: Diverse Beam Search</a></h4><p>CloudCV: Large Scale Distributed Computer Vision as a Cloud Service</p></blockquote>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+      </div>
     </div>
 
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12">
+        <h3 class="content_heading"><a target="_blank" href="http://gradcam.cloudcv.org">SlackBot for Gradient-weighted Class Activation Mapping</a></h3>
+          <p class="content">The bot keeps monitoring the slack channels and if someone mentions the bot and asks a question about an Image then it replies back with its Answer using <a href="http://arxiv.org/abs/1505.00468">Visual Question Answering</a>. The jobs sent by the bot are queued and are consumed by RabbitMQ workers that sends back the response.</p>
+      </div>
+
+      <div class="col-md-12" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ayO2TnWchuc" frameborder="0" allowfullscreen></iframe>      
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
         <h3 class="content_heading"><a target="_blank" href="http://cloudcv.org/vqa">Visual Question Answering Twitter Bot</a></h3>
           <p class="content">Given an image and a natural language question about the image as a tweet mentioning @deshrajdry, the bot provides an accurate natural language answer as a reply to that tweet. This project involves use of Twitter Streaming API for replying and RabbitMQ for running the prediction job in a worker. More details about Visual Question Answering can be found <a href="http://arxiv.org/abs/1505.00468">here</a>. The VQA demo can be found <a href="http://cloudcv.org/vqa/">here</a></p>
       </div>
-<!-- 
-      <div class="col-md-5" align="center">
-        <img src="static/img/gradcam_vqa.png" width="300" height="180">
-      </div> -->
     </div>
 
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12">
+        <h3 class="content_heading"> <a target="_blank" href="http://210.212.85.155">JSS Connect Web Application</a></h3>
+          <p class="content">A web application used by thousands of students studying at JSSATE Noida working as an interaction between the college administration and students. It helps students to interact with the faculties and see the notices being uploaded on daily basis. On daily basis, this application serves around 5,000 requests very efficiently. The project is open source and can be found <a href="https://github.com/ncs-jss/HTTP_200">here</a>.</p>
+      </div>
+      <div class="col-md-12" align="center">
+        <a class="embedly-card" data-card-key="0cb3be3b75224d4881ae30aee6c13782" data-card-controls="0" data-card-image="http://210.212.85.155/static/images/jss-logo.png" data-card-type="article" href="http://210.212.85.155/">JSS InfoConnect</a>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>      
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
         <h3 class="content_heading"><a href="https://github.com/DESHRAJ/Beacon-Navigation">Indoor Navigation Android Applocation(Using Beacons)</a></h3>
           <p class="content">Beacons and Stickers are small wireless sensors that you can attach to any location or object. They broadcast tiny radio signals which your smartphone can receive and interpret, unlocking micro-location and contextual awareness. The navigation for the different Office buildings and malls can be made much simpler using Beacons. The user needs to install the application and he can navigate easily to the nearby locations like different stores in a Mall. Implemented the whole android application along with the use of A* Search Algorithm for finding the shortest route</p>
       </div>
-
-<!--       <div class="col-md-5" align="center">
-        <img src="static/img/gradcam_vqa.png" width="300" height="180">
-      </div> -->
     </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a href="https://github.com/DESHRAJ/h1n1">Public Health Surveillance System</a></h3>
-          <p class="content">A django based web application for analyzing the areas where the Swine Flu disease is increasing flawlessly with the help of Google Maps API and generating alerts for sending email alerts to the schools and Hospitals located in between the 5km range of the prone area. Heat maps are also generated with help of Google Heat Maps for visualizing the areas which are more affected and hence necessary action can be taken.</p>
-      </div>
-
-     <!--  <div class="col-md-5" align="center">
-        <img src="static/img/gradcam_vqa.png" width="300" height="180">
-      </div> -->
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a href="https://www.microsoft.com/en-us/store/p/skynetv1/9nblggh08hxx#">Skynet Browser(Windows Mobile Browser)</a></h3>
-          <p class="content">A Windows Phone based Web Browser that has a great interface along with the quick links to the most visited sites like the facebook, google, gmail and bing etc. It also supports the maps feature along with the email sending feature. </p><p class="content"><b>PS: This application has been downloaded by more than 30,000 users worldwide(Last checked: 29th March, 2015)</b></p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a href="https://github.com/TroJan/analysis">Codechef Campus Chapter Analytics</a></h3>
-          <p class="content">A web based application which scrapes data from Codechef and then analyses the campus chapters data provided on codechef and finally gives the detailed analysis of the Campus Chapters. It also gives the functionality of tracking the progress of your friends. Also, the recent activities of Campus Chapters can also be tracked.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"> <a target="_blank" href="http://210.212.85.155">JSS Connect Web Application</a></h3>
-          <p class="content">A web application used by thousands of students studying at JSSATE Noida working as an interaction between the college administration and students. It helps students to interact with the faculties and see the notices being uploaded on daily basis. On daily basis, this application serves around 5,000 requests very efficiently. The project is open source and can be found <a href="https://github.com/ncs-jss/HTTP_200">here</a>. </p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a href="https://github.com/DESHRAJ/Youtube-Downloader">Youtube Downloader</a></h3>
-          <p class="content">This application helps users to download youtube videos in a one step process. Only they need to paste the url and then they can download the video in any quality from 240p to 1080p. I was responsible for developing the backend of this web application. Technologies used are Django Framework, Python Scripting, some python packages like NumPy and Pafy etc along with HTML5, CSS3, Javascript and Bootstrap.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a href="https://github.com/DESHRAJ/Audio-Scraper">Songs Scrapper</a></h3>
-          <p class="content">This project is for easy downloading of Bollywood Songs. Data is scraped from some popular Songs Website and about database of 50,000 songs is made. It also helps users to get rid of the ads and pop ups and fake download buttons on the websites. Simple click and download facility is there. Technologies used in this project are Python, <b>Scrapy framework</b>, Django framework, HTML5, CSS3, Bootstrap.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a href="https://github.com/DESHRAJ/pyUrl">PyURL(A URL Shortener)</a></h3>
-          <p class="content">A customized URL shortening service that lets the user to get custom shortened URL that he wants. The main advantage of this product is the customization of shortened urls that gives full freedom to a user to create his own shortened URL.</p>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-7">
-        <h3 class="content_heading"><a target="_blank" href="http://gdgjss.in">Google Developers Group JSS Noida Website</a></h3>
-          <p class="content">My responsibilities included writing the backend business logic where I used the technologies like Django Framework, MongoDB, Python for the scripting. Also I was responsible for managing the database.</p>
-      </div>
-    </div>
-
 
   </div>
