@@ -130,6 +130,17 @@ p{
 .navbar-right li{
   color: white;
 }
+.thumb {
+    margin: 20px 0;
+    border: 1px solid #808080;
+}
+.conf{
+  color: blue;
+  font-weight: 500;
+}
+.white-text{
+  color: white;
+}
 </style>
 <body>
   <nav class="navbar navbar-fixed right">
@@ -152,15 +163,15 @@ p{
     <h1 align="center">Deshraj Yadav</h1>
     <p align="center"><a target="_blank" href="http://github.com/deshraj">@deshraj</a></p>
     <div align="center">
-      <img src="/static/img/deshraj.jpg" height="350px;">
+      <img src="/static/img/deshraj.jpeg" height="350px;">
     </div>
     <div id="about"></div>
     <div id="news"></div>
     <div id="publications"></div>
+    <div id="education"></div>
     <div id="projects"></div>
     <div id="experience"></div>
     <div id="skills"></div>
-    <!-- <div id="education"></div> -->
     <div id="achievements"></div>
     <div id="contact"></div>
   </div>
@@ -177,7 +188,7 @@ p{
       $("#projects").load("projects.html"); 
       $("#experience").load("experience.html"); 
       $("#skills").load("skills.html"); 
-      // $("#education").load("education.html"); 
+      $("#education").load("education.html"); 
       $("#achievements").load("achievements.html"); 
       $("#contact").load("contact.html"); 
     });
