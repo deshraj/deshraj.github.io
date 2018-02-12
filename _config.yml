@@ -16,9 +16,8 @@
 title: Deshraj Yadav
 email: deshraj@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Deshraj is a Computer Science MS student at Georgia Tech, advised by Dr. Dhruv Batra. 
-  He works at the junction of software engineering and research solving problems which lie at the intersection of Computer Vision, Machine Learning and Natural Language Processing. 
-  His research interests focus on making AI more accurate, better understand human intentions, tendencies, and contexts. 
+  Deshraj is a Compute Science MS student at Georgia Tech, advised by Dr. Dhruv Batra. 
+  He works at the junction of software engineering and AI research. His research interests focus on making AI more accurate, better understand human intentions, tendencies, and contexts.
   He actively maintains the CloudCV Project which aims to make AI research more reproducible.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://deshraj.xyz" # the base hostname & protocol for your site, e.g. http://example.com
