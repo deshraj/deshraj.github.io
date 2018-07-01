@@ -86,21 +86,13 @@
     color: white;
   }
 }
-.navbar{
-  border-radius: 0;
-}
-
-/*@media only screen and (min-width: 900px) {*/
-.navbar-fixed-top {
-  height: 35px !important;
-  min-height:10px;
-}
 
 body{
   background: white;
   color: black;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
+  padding-top: 70px;
 }
 
 .title_bar_text{
@@ -116,9 +108,7 @@ h1,h2,h3, h4{
 }
 .content{
   margin-left: 30px;
-}
-.main_content{
-  /*margin-top: 40px;*/
+  font-size: 16px;
 }
 .section_heading{
   padding-top: 40px;
@@ -159,43 +149,63 @@ p{
 .white-text{
   color: white;
 }
+
+a:not(.navbar-brand):not(.btn-social-icon):not(.github-button):not(.link-btn){
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  color: inherit;
+}
+
+a:hover:not(.btn-social-icon):not(.github-button):not(.link-btn) {
+  color:#ffcc00 !important;
+  /*border-bottom: none;*/
+}
+
 </style>
 <body>
-  <nav class="navbar navbar-fixed right">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li><a target="_blank" href="http://github.com/deshraj">Github</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a target="_blank" href="https://medium.com/@deshrajdry/">Medium</a></li>
-        <li><a target="_blank" href="http://deshrajdry.blogspot.com">Blogger</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-        <li><a href="/static/docs/DeshrajCV.pdf" target="_blank">CV</a></li>
-      </ul>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand active" href="/">Deshraj Yadav</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a target="_blank" href="http://github.com/deshraj">Github</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a target="_blank" href="https://scholar.google.com/citations?user=ZSLd8tYAAAAJ&hl=en">Google Scholar</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="/static/docs/DeshrajCV.pdf" target="_blank">CV</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        </ul>
+      </div>
     </div>
   </nav>
+
   <div class="container">
-    <h1 align="center">Deshraj Yadav</h1>
-    <p align="center"><a target="_blank" href="http://github.com/deshraj">@deshraj</a></p>
-    <div align="center">
-      <img src="/static/img/deshraj.jpg" height="275px;">
-    </div>
     <div id="about"></div>
     <div id="news"></div>
-    <div id="experience"></div>
-    <div id="publications"></div>
     <div id="projects"></div>
+    <div id="publications"></div>
+    <div id="experience"></div>
     <div id="education"></div>
-    <div id="skills"></div>
+    <!-- <div id="skills"></div> -->
     <div id="achievements"></div>
     <div id="contact"></div>
   </div>
 
   <div class="panel">
-    <div class="panel-footer" align="center">&#9400; Deshraj Yadav</div>
+    <div class="panel-footer" align="center">&#9400; Deshraj Yadav, 2018</div>
   </div>
 
   <script type="text/javascript">
@@ -222,6 +232,8 @@ p{
     ga('send', 'pageview');
 
   </script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </body>
 </html>
