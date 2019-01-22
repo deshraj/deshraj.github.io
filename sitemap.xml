@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://deshraj.xyz/</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://deshraj.xyz/#projects</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://deshraj.xyz/#publications</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://deshraj.xyz/#education</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://deshraj.xyz/#achievements</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>http://deshraj.xyz/static/docs/DeshrajCV.pdf</loc>
+    <lastmod>2019-01-22</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+</urlset>
+<!--<guid value="f0cf0387-9862-4043-a60f-a94ff65b2537" />-->
