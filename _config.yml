@@ -16,11 +16,9 @@
 title: Deshraj Yadav
 email: deshraj@gatech.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Deshraj is a Compute Science MS student at Georgia Tech, advised by Dr. Dhruv Batra. 
-  He works at the junction of software engineering and AI research. His research interests focus on making AI more accurate, better understand human intentions, tendencies, and contexts.
-  He actively maintains the CloudCV Project which aims to make AI research more reproducible.
+  Deshraj is a Senior Autopilot Engineer at Tesla He leads the Autopilot's AI Platform track large scale training and model evaluation experiments, provide monitoring and observability into jobs and training cluster issues. He created EvalAI which is an open source platform for hosting AI challenges.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://deshraj.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://deshraj.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: deshrajdry
 github_username:  deshraj
 
