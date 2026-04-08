@@ -9,6 +9,19 @@ export const metadata: Metadata = {
 
 const publications = [
   {
+    title:
+      "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+    authors:
+      "Prateek Chhikara, Dev Khant, Saket Aryan, Taranjeet Singh, Deshraj Yadav",
+    venue: "arXiv preprint",
+    year: "2025",
+    links: [
+      { label: "Paper", url: "https://arxiv.org/abs/2504.19413" },
+      { label: "Project", url: "https://mem0.ai" },
+      { label: "Code", url: "https://github.com/mem0ai/mem0" },
+    ],
+  },
+  {
     title: "EvalAI: Towards Better Evaluation Systems for AI Agents",
     authors:
       "Deshraj Yadav, Rishabh Jain, Harsh Agrawal, Prithvijit Chattopadhyay, Taranjeet Singh, Akash Jain, Shiv Baran Singh, Stefan Lee, Dhruv Batra",
