@@ -55,31 +55,33 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="mb-20">
-        <div className="flex items-start justify-between gap-8 mb-4">
-          <h1 className="text-3xl font-semibold tracking-tight">
-            Deshraj Yadav
-          </h1>
+        <div className="flex items-center gap-6 mb-6">
           <Image
             src="/static/img/deshraj.png"
             alt="Deshraj Yadav"
-            width={100}
-            height={100}
-            className="rounded-full shrink-0 grayscale hover:grayscale-0 transition-all duration-300"
+            width={160}
+            height={160}
+            className="rounded-full shrink-0 object-cover w-24 h-24 md:w-28 md:h-28"
             priority
           />
+          <div className="min-w-0">
+            <h1 className="text-3xl font-semibold tracking-tight">
+              Deshraj Yadav
+            </h1>
+            <p className="text-muted text-lg leading-relaxed mt-2">
+              Co-founder and CTO at{" "}
+              <a
+                href="https://mem0.ai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline underline-offset-4 decoration-border hover:decoration-primary"
+              >
+                Mem0
+              </a>
+              . Building the memory layer for AI agents.
+            </p>
+          </div>
         </div>
-        <p className="text-muted text-lg leading-relaxed max-w-xl">
-          Co-founder and CTO at{" "}
-          <a
-            href="https://mem0.ai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary underline underline-offset-4 decoration-border hover:decoration-primary"
-          >
-            Mem0
-          </a>
-          . Building the memory layer for AI applications.
-        </p>
         <p className="text-muted leading-relaxed mt-4 max-w-xl">
           Previously Senior Autopilot Engineer at Tesla, where I led the
           AI Platform for tracking large-scale training experiments and
