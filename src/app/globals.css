@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #111;
+  --color-muted: #666;
+  --color-border: #e5e5e5;
+  --color-bg: #fafafa;
+  --color-accent: #000;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Minimal link style */
+a {
+  transition: opacity 0.15s ease;
+}
+a:hover {
+  opacity: 0.6;
+}
