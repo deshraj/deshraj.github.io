@@ -1,0 +1,35 @@
+---
+title: "Hello, world"
+description: "A short introduction to this blog and what you can expect to find here."
+date: "2026-04-08"
+tags: ["meta", "writing"]
+---
+
+Welcome. This is the first post on my new blog, where I plan to write about
+the things I'm working on and thinking about — mostly at the intersection of
+**AI agents**, **memory systems**, and the nuts and bolts of building production
+software.
+
+## Why a blog
+
+I've been meaning to start writing publicly for a while. Tweets are fleeting,
+and a lot of the problems I run into day-to-day deserve more than a thread.
+Expect posts on:
+
+- How we design and scale long-term memory for LLM agents at [Mem0](https://mem0.ai)
+- Lessons from shipping evaluation infrastructure (EvalAI, internal tools at Tesla)
+- Occasional deep-dives into papers I'm reading
+
+## A tiny code sample
+
+Just to make sure syntax highlighting works:
+
+```ts
+import { Memory } from "mem0ai";
+
+const memory = new Memory();
+await memory.add("User prefers concise answers", { userId: "deshraj" });
+const results = await memory.search("tone preferences", { userId: "deshraj" });
+```
+
+That's it for now. More soon.
