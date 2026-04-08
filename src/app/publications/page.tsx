@@ -13,7 +13,7 @@ const publications = [
       "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
     authors:
       "Prateek Chhikara, Dev Khant, Saket Aryan, Taranjeet Singh, Deshraj Yadav",
-    venue: "arXiv preprint",
+    venue: "ECAI 2025",
     year: "2025",
     links: [
       { label: "Paper", url: "https://arxiv.org/abs/2504.19413" },
