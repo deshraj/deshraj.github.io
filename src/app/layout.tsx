@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   keywords: [
     "Deshraj Yadav",
     "Mem0",
-    "Embedchain",
+    "Memory Layer for AI Agents",
     "Tesla Autopilot",
     "EvalAI",
     "AI",
     "Machine Learning",
     "Georgia Tech",
     "CTO",
-    "RAG",
+    "AI Agents",
   ],
   authors: [{ name: "Deshraj Yadav" }],
   openGraph: {

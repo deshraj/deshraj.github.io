@@ -20,6 +20,8 @@ export async function generateMetadata({
   if (!post) return {};
 
   const url = `https://deshraj.xyz/blog/${post.slug}`;
+  // Always use the dynamically generated /opengraph-image route — guarantees
+  // a clean 1200x630 PNG with title + branding regardless of the post's cover.
   const ogImage = `${url}/opengraph-image`;
 
   return {
@@ -110,6 +112,16 @@ export default async function BlogPostPage({ params }: PageProps) {
                 {tag}
               </span>
             ))}
+          </div>
+        )}
+        {post.frontmatter.cover && (
+          <div className="mt-8 aspect-[5/2] w-full overflow-hidden rounded-md border border-border bg-[var(--color-bg)]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={post.frontmatter.cover}
+              alt={post.frontmatter.title}
+              className="w-full h-full object-cover"
+            />
           </div>
         )}
       </header>
