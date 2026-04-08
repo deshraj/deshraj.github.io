@@ -31,3 +31,122 @@ a {
 a:hover {
   opacity: 0.6;
 }
+
+/* Blog post prose styles */
+.prose-blog {
+  color: var(--color-primary);
+  line-height: 1.75;
+  font-size: 0.95rem;
+}
+.prose-blog > * + * {
+  margin-top: 1.25em;
+}
+.prose-blog h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2.5em;
+  margin-bottom: 0.5em;
+}
+.prose-blog h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+.prose-blog p {
+  color: var(--color-primary);
+}
+.prose-blog a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-border);
+}
+.prose-blog a:hover {
+  text-decoration-color: var(--color-primary);
+  opacity: 1;
+}
+.prose-blog strong {
+  font-weight: 600;
+}
+.prose-blog ul,
+.prose-blog ol {
+  padding-left: 1.5em;
+}
+.prose-blog ul {
+  list-style: disc;
+}
+.prose-blog ol {
+  list-style: decimal;
+}
+.prose-blog li + li {
+  margin-top: 0.5em;
+}
+.prose-blog blockquote {
+  border-left: 2px solid var(--color-border);
+  padding-left: 1em;
+  color: var(--color-muted);
+  font-style: italic;
+}
+.prose-blog code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85em;
+  background-color: #f5f5f5;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+.prose-blog pre {
+  background-color: #f7f7f7;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1em 1.25em;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.prose-blog pre code {
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+}
+.prose-blog img {
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+}
+.prose-blog hr {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 2.5em 0;
+}
+.prose-blog table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+.prose-blog th,
+.prose-blog td {
+  border: 1px solid var(--color-border);
+  padding: 0.5em 0.75em;
+  text-align: left;
+}
+.prose-blog th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+/* rehype-pretty-code */
+.prose-blog [data-rehype-pretty-code-figure] pre {
+  padding: 1em 1.25em;
+}
+.prose-blog code[data-line-numbers] {
+  counter-reset: line;
+}
+.prose-blog code[data-line-numbers] > [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  width: 1.5rem;
+  margin-right: 1rem;
+  text-align: right;
+  color: var(--color-muted);
+}

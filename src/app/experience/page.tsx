@@ -14,7 +14,7 @@ const experiences = [
     companyUrl: "https://mem0.ai",
     period: "Sep 2023 — Present",
     description:
-      "Building Mem0 (f.k.a Embedchain), the memory layer for AI applications. Open-source RAG framework that makes it easy to create and deploy personalized AI apps.",
+      "Building Mem0 — the memory layer for AI agents. Open-source infrastructure that gives LLM agents persistent, scalable long-term memory across sessions.",
   },
   {
     role: "Senior Autopilot Engineer",

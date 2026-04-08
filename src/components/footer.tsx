@@ -36,6 +36,9 @@ export function Footer() {
           >
             Scholar
           </a>
+          <a href="/feed.xml" className="hover:text-primary transition-colors">
+            RSS
+          </a>
         </div>
       </div>
     </footer>

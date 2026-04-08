@@ -26,7 +26,7 @@ const highlights = [
 const news = [
   {
     date: "Sep 2023",
-    text: "Started as Co-founder and CTO at Mem0 (f.k.a Embedchain) — building the memory layer for AI apps.",
+    text: "Started as Co-founder and CTO at Mem0 — building the memory layer for AI agents.",
   },
   {
     date: "Jul 2019",
@@ -164,8 +164,9 @@ export default function Home() {
               </a>
             </h3>
             <p className="text-sm text-muted mt-1">
-              The memory layer for AI apps. Open-source RAG framework that makes
-              it easy to create and deploy personalized AI applications.
+              The memory layer for AI agents. Open-source infrastructure that
+              gives LLM agents persistent, scalable long-term memory across
+              sessions.
             </p>
           </div>
           <div>
